@@ -72,16 +72,13 @@ const App = () => {
       {overlay()}
       <header className="App-Content">
         <h1>Responsive Mobile Test</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>Click 'Toggle Text' at the top to view info.</p>
         {showText ? (
           <>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              consequatur esse molestiae, ipsum assumenda ex id earum similique
-              beatae ipsam magnam eius enim, fugit impedit labore distinctio in
-              quod aliquam.
+              Open DevTools by pressing F12 and click on the mobile icon located
+              on the top right corner. Select between a few mobile devices and
+              the font and images should scale accordingly.
             </p>
             <p className="Other-size-font">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
