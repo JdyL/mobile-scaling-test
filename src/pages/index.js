@@ -83,7 +83,7 @@ const App = () => {
               beatae ipsam magnam eius enim, fugit impedit labore distinctio in
               quod aliquam.
             </p>
-            <p class="Other-size-font">
+            <p className="Other-size-font">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
               consequatur esse molestiae, ipsum assumenda ex id earum similique
               beatae ipsam magnam eius enim, fugit impedit labore distinctio in
@@ -103,7 +103,7 @@ const App = () => {
               alt="not an advertisement"
               className="Image"
             />
-            <p class="Other-size-font">
+            <p className="Other-size-font">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </>
