@@ -34,7 +34,9 @@ const App = () => {
     setSize(`${newArea}px`);
   };
 
-  window.addEventListener("resize", updateSize);
+  const isBrowser = () => typeof window !== "undefined";
+
+  isBrowser() && window.addEventListener("resize", updateSize);
 
   useEffect(() => {
     document.documentElement.style.fontSize = size;
