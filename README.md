@@ -1,4 +1,4 @@
-scaling using global root font size test
+i made this to experiment on scaling using global root font size
 
 check it out https://mobilescalingtest.gatsbyjs.io/
 
